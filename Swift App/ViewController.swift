@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         coolLabel.text = "I love buttons!"
         self.view.backgroundColor = UIColor.green
         tapCount = tapCount + 1
-        if tapCount >= 10 {
+        if tapCount >= 20 {
             coolLabel.text = "You tapped the button 10 times!"
         }
     }
