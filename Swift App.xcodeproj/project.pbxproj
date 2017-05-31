@@ -301,6 +301,7 @@
 				8A2E8E501EDDF2D00010392C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
