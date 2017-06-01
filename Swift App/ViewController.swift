@@ -13,15 +13,14 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var coolLabel: UILabel!
     
-    var tapCount = 0
+  
+    @IBOutlet weak var Text1: UITextField!
+    
+    
+    @IBOutlet weak var Text2: UITextField!
     
     @IBAction func buttontapped(_ sender: Any) {
-        coolLabel.text = "I love buttons!"
-        self.view.backgroundColor = UIColor.green
-        tapCount = tapCount + 1
-        if tapCount >= 20 {
-            coolLabel.text = "You tapped the button 10 times!"
-        }
+        coolLabel.text = "Answer: \(Double(Text1.text!)! + Double(Text2.text!)!)"
     }
     
     @IBAction func Buttonsarecool(_ sender: Any) {
